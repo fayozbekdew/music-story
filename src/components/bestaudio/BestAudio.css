@@ -1,0 +1,33 @@
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.best__left__title{
+width: 100%;
+max-width: 44.5rem;
+color: #000;
+font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 110% */
+letter-spacing: 1.429px;
+text-transform: uppercase;
+margin-bottom: 3.2rem;
+}
+.best__left__title span{
+    color: var(--main-color);
+}
+.best__left__text{
+    width: 100%;
+    max-width: 44.5rem;
+color: #000;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+opacity: 0.5;
+}

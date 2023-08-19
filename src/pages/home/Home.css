@@ -1,0 +1,169 @@
+/* ======HERO-SECTION======= */
+.hero{
+    padding: 0 0 12rem 0;
+    background-color: var(--header-bg-color);
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero__left__top{
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 10px;
+margin-bottom: 2.4rem;
+color: var(--white-color);
+opacity: 0.4964;
+}
+.hero__left__title{
+width: 100%;
+max-width: 39rem;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 103.571% */
+letter-spacing: 2px;
+margin-bottom: 2.4rem;
+color: var(--white-color);
+}
+.hero__left__text{
+width: 100%;
+max-width: 35rem;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 4rem;
+color: var(--white-color);
+opacity: 0.75;
+}
+
+.hero__right{
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    background-image: url('../../assets/hero-naushnik.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ======SPEAKER-SECTION====== */
+.speaker{
+    padding-top: 9.6rem;
+    background-color: var(--main-color);
+}
+.speaker__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.speaker__left{
+    width: 100%;
+    max-width: 40rem;
+    height: 49rem;
+    background-image: url('../../assets/hero-speaker-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.speaker__right__text{
+width: 100%;
+max-width: 35rem;
+    color: #FFF;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+opacity: 0.75;
+margin-bottom: 4rem;
+margin-top: 2.4rem;
+}
+.speaker__right__title{
+width: 100%;
+max-width: 26rem;
+    color: #FFF;
+font-family: Manrope;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 103.571% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+/* ======SPEAKER-2-SECTION====== */
+.speaker2{
+    height: 320px;
+    margin-top: 7rem;    background-image: url('../../assets/hero-speaker-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.speaker2__left{
+    display: flex;
+    align-items: flex-start;
+    transform: translateY(50%);
+    flex-direction: column;
+}
+.speaker2__left__title{
+width: 100%;
+max-width: 230px;
+    color: #000;
+font-family: Manrope;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 3.2rem;
+}
+.speaker2__right{
+    width: 100%;
+    max-width: 40rem;
+    height: 49rem;
+    
+}
+
+/* ======EARPHONES-SECTION====== */
+.earphone{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.earphone__left{
+    width: 100%;
+    max-width: 540px;
+    height: 320px;
+    background-image: url('../../assets/earphoneshero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.earphone__right{
+    width: 100%;
+    max-width: 540px;
+    height: 320px;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+    padding-top: 101px;
+    padding-left: 95px;
+}
+.earphone__right__title{
+width: 100%;
+max-width: 25rem;
+margin-bottom: 3.2rem;
+color: #000;
+font-family: Manrope;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
