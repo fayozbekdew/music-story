@@ -1,0 +1,19 @@
+/* =========INTRO-SECTION======= */
+.intro{
+    padding: 9.8rem 0;
+    background-color: var(--main-black-color);
+}
+.intro-title{
+width: 100%;
+max-width: 28.3rem;
+color: #FFF;
+margin-left: 50%;
+transform: translate(-50%);
+font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 1.429px;
+text-transform: uppercase;
+}

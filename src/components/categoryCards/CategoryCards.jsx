@@ -21,7 +21,6 @@ const CategoryCards = () => {
     <div className='category container'>
     <ul className='category-cards__list' >
         {categoryData.map((category) => {
-            console.log(category.img);
             return(
                 <li key={category.title} className="category-cards__item">
                 <img className='category-cards__item__img' src={category.img} alt="" />
