@@ -36,16 +36,6 @@ const CategoryCards = () => {
             </li>
             )
         })}
-        {/* <li className="category-cards__item">
-            <img className='category-cards__item__img' src="" alt="" />
-            <h4 className="category-cards__item__title">
-            HEADPHONES
-            </h4>
-            <NavLink className="categoty-cards__item__link">
-                <p>Shop</p>
-                <img src="" alt="" />
-            </NavLink>
-        </li> */}
     </ul>
     </div>
   )

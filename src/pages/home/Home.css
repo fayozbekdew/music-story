@@ -167,3 +167,60 @@ line-height: normal;
 letter-spacing: 2px;
 text-transform: uppercase;
 }
+
+/* ===========RESPONSIVE======== */
+@media (max-width:800px) {
+    .hero__container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero__left{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .speaker__container{
+        flex-direction: column;
+    }
+    .speaker__left{
+        width: 197.212px;
+        height: 237px;
+        margin-bottom: 6.4rem;
+    }
+    .speaker__right{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 6.4rem;
+    }
+    .earphone{
+        column-gap: 1.1rem;
+    }
+}
+@media (max-width:500px) {
+    .hero__left__top{
+        font-size: 1.4rem;
+    }
+    .hero__left__title{
+        font-size: 3.6rem;
+    }
+    .hero__left__text{
+        font-size: 15px;
+    }
+    .speaker__left{
+        width: 172.248px;
+height: 207px;
+        margin-bottom: 3.2rem;
+    }
+    .speaker__right__text{
+        font-size: 1.5rem;
+        }
+        .speaker__right__title{
+        font-size: 3.6rem;
+        }
+        .earphone{
+            flex-direction: column;
+        }
+}

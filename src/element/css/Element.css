@@ -84,3 +84,20 @@ font-weight: 500;
 line-height: 25px; /* 166.667% */
 opacity: 0.5;
 }
+/* =====RESPONSIVE==== */
+
+@media (max-width:800px) {
+    .features{
+        flex-direction: column;
+    }
+    .features__right{
+        margin-top: 12rem;
+        display: flex;
+    }
+}
+@media (max-width:500px) {
+    .features__right{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}

@@ -8,7 +8,7 @@ const ElementInfo = ({ data }) => {
         return (
           <div key={element.id} className="container element-info">
             <div className="element-info__left">
-              <img src={element.img} alt="" />
+              <img  src={element.img} alt="" />
             </div>
             <div className="element-info__right">
               <h1 className="element-info__right__title">{element.title}</h1>

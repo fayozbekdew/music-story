@@ -59,3 +59,34 @@ line-height: 25px;
 opacity: 0.5;
 margin-bottom: 4rem;
 }
+
+/* =======RESPONSIVE===== */
+@media (max-width:800px) {
+    .model{
+    flex-direction: column !important;
+    }
+    .model__right{
+        margin-top: 5rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width:500px) {
+    .model__left{
+        width: 327px;
+height: 352px;
+    }
+    .model__left img{
+        width: 240px;
+height: 243px;
+    }
+    .model__right__text{
+        font-size: 1.5rem;
+    }
+    .model__right__title{
+        font-size: 2.8rem;
+        margin-bottom: 2.4rem;
+    }
+}

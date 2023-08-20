@@ -31,3 +31,33 @@ font-weight: 500;
 line-height: 25px;
 opacity: 0.5;
 }
+
+/* =======RESPONSIVE====== */
+@media (max-width:800px) {
+    .best{
+        flex-direction: column-reverse;
+    }
+    .best__left{
+        text-align: center;
+    }
+    .best__right img{
+        width: 689px;
+        height: 300px;
+        margin-bottom: 6rem;
+    }
+}
+@media (max-width:700px) {
+    .best__right img{
+        max-width: 589px;
+    }
+}
+@media (max-width:590px) {
+    .best__right img{
+        max-width: 489px;
+    }
+}
+@media (max-width:500px) {
+    .best__right img{
+        max-width: 300px;
+    }
+}

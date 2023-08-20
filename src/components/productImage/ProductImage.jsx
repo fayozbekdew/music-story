@@ -7,7 +7,7 @@ const ProductImage = ( {img1, img2, img3} ) => {
         <div className="product-images">
             <div className="product-image__left">
                 <div className="product-image__left-img1">
-                    <img src={img1} alt="" />
+                    <img  src={img1} alt="" />
                 </div>
                 <div className="product-image__left-img2">
                 <img src={img2} alt="" />

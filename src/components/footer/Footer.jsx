@@ -13,11 +13,11 @@ const Footer = () => {
   return (
     <footer className="header">
     <div className="container">
-    <div className="header__container">
+    <div className="footer__container">
         <Link className="site-logo" to="/">
             <img src={SiteLogo} className='site-logo__image' alt="" width="143" height="25" />
         </Link>
-        <nav className="sitenav">
+        <nav className="sitenav__footer">
             <ul className="sitenav__list">
                 <li className="sitenav__item">
                     <NavLink to='/' className="sitenav__link">Home</NavLink>

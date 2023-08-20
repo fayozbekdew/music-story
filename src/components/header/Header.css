@@ -29,6 +29,21 @@
     border: none;
 }
 
+/* ====BURGER_BTN==== */
+.burger-menu{
+    position: absolute;
+    top: 90px;
+    padding: 1rem 2rem;
+    background-color: rgb(54, 52, 52);
+    backdrop-filter: blur(10px);
+}
+.burger-img{
+    display: none;
+}
+.burger-menu-list li{
+    margin-bottom: 2rem;
+}
+
 /* =======SHOP-LIST-STYLE====== */
 
 .shop-list{
@@ -158,4 +173,15 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
+}
+
+
+/* ======RESPONSIVE===== */
+@media (max-width:800px) {
+    .burger-img{
+        display: block;
+    }
+    .sitenav__header{
+        display: none;
+    }
 }
