@@ -21,6 +21,13 @@
     letter-spacing: 0.2rem;
     color: var(--white-color);
 }
+.sitenav__link:hover{
+    color: var(--main-color);
+}
+.sitenav__link:active{
+    color: var(--main-color);
+    text-decoration: underline;
+}
 .header__btn{
     cursor: pointer;
 }
