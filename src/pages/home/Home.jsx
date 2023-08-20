@@ -28,7 +28,7 @@ HeadphoneS
         <p className="hero__left__text">
         Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
         </p>
-        <Button  bacColor={'#d87d4a'}/>
+        <Button link={'headphones1'} bacColor={'#d87d4a'}/>
       </div>
       <div className="hero__right">
         
@@ -49,7 +49,7 @@ SPEAKER
         <p className="speaker__right__text">
         Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
         </p>
-        <Button bacColor={'#000'} />
+        <Button link={'speakers1'} bacColor={'#000'} />
       </div>
       </div>
     </section>
@@ -59,7 +59,7 @@ SPEAKER
         <h1 className="speaker2__left__title">
         ZX7 SPEAKER
         </h1>
-        <Button bacColor={'#dfdfdf'} color={'#000'} />
+        <Button link={'speakers2'} bacColor={'#dfdfdf'} color={'#000'} />
       </div>
       </div>
     </section>
@@ -71,7 +71,7 @@ SPEAKER
         <h1 className="earphone__right__title">
         YX1 EARPHONES
         </h1>
-        <Button bacColor={'#dfdfdf'} color={'#000'} />
+        <Button link={'earphones1'} bacColor={'#dfdfdf'} color={'#000'} />
       </div>
     </section>
 

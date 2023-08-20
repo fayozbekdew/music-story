@@ -13,6 +13,7 @@ import ProductImage from '../../components/productImage/ProductImage'
 import HeadPHonesProductImg4 from '../../assets/HeadpgonesProductImg4.png'
 import HeadPHonesProductImg5 from '../../assets/HeadpgonesProductImg5.png'
 import HeadPHonesProductImg6 from '../../assets/HeadpgonesProductImg6.png'
+import { Link } from 'react-router-dom'
 
 const HeadPhones1 = () => {
   const HeadPhones1Data = [
@@ -22,6 +23,7 @@ const HeadPhones1 = () => {
   
   return (
     <div className='container'>
+    <Link className='back-btn' to='/headphones'><h6>Go Back</h6></Link>
     <ElementInfo data={HeadPhones1Data} />
     <div className="features">
       <div className="features__left">

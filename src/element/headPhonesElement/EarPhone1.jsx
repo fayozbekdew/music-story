@@ -1,3 +1,6 @@
+//rrd
+import { Link } from "react-router-dom";
+
 //component
 import ElementInfo from "../../components/elementInfo/ElementInfo";
 import BestAudio from "../../components/bestaudio/BestAudio";
@@ -23,6 +26,7 @@ const EarPhone1 = () => {
   ];
   return (
     <div className="container">
+       <Link className='back-btn' to='/earphones'><h6>Go Back</h6></Link>
       <ElementInfo data={EarphoneData} />
       <div className="features">
         <div className="features__left">

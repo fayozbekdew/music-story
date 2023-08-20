@@ -10,10 +10,27 @@ import { NavLink } from 'react-router-dom'
 //Images
 import SiteLogo from '../../assets/SiteLogo.svg'
 import ShopButton from '../../assets/shopButton.svg'
+import shopImg1 from '../../assets/headPhones-1.png'
+import { useState } from 'react'
 
 const Header = () => {
+
+    const [shop, setShop] = useState(false)
+   
+    const handleClick = (e) => {
+        document.addEventListener('click', (e) => {
+            if(e.target.classList.contains('header__btn__img')){
+                console.log(e.target.classList)
+                setShop(true)
+            }
+            else{
+                setShop(false)
+            }
+        })
+    }
+
   return (
-    <header className="header">
+    <header onClick={() => handleClick()}  className="header">
         <div className="header__container container">
             <Link className="site-logo" to="/">
                 <img src={SiteLogo} className='site-logo__image' alt="" width="143" height="25" />
@@ -36,6 +53,76 @@ const Header = () => {
             </nav>
             <div className='header__btn'>
                 <img className='header__btn__img' src={ShopButton} alt="" />
+            </div>
+        </div>
+        <div className={`${shop ? 'show' : 'hidden'} shop-list`}>
+            <div className="shop-list-top">
+                <h2 className="shop-list-top-title">
+                card
+                </h2>
+                <p>
+                Remove all
+                </p>
+            </div>
+            <ul className="shop-list-element">
+                <li className="shop-list-item">
+                    <div className="shop-list-item-images">
+                        <img src='' alt="" />
+                    </div>
+                    <div className="shop-list-item-info">
+                        <h6 className="shop-list-item-info-title">
+                        XX99 MK II
+                        </h6>
+                        <p className="shop-list-item-info-text">
+                        $ 2,999
+                        </p>
+                    </div>
+                    <div className="shop-list-btn">
+                        <p>1</p>
+                    </div>
+                </li>
+                <li className="shop-list-item">
+                    <div className="shop-list-item-images">
+                        <img src='' alt="" />
+                    </div>
+                    <div className="shop-list-item-info">
+                        <h6 className="shop-list-item-info-title">
+                        XX99 MK II
+                        </h6>
+                        <p className="shop-list-item-info-text">
+                        $ 2,999
+                        </p>
+                    </div>
+                    <div className="shop-list-btn">
+                        <p>1</p>
+                    </div>
+                </li>
+                <li className="shop-list-item">
+                    <div className="shop-list-item-images">
+                        <img src='' alt="" />
+                    </div>
+                    <div className="shop-list-item-info">
+                        <h6 className="shop-list-item-info-title">
+                        XX99 MK II
+                        </h6>
+                        <p className="shop-list-item-info-text">
+                        $ 2,999
+                        </p>
+                    </div>
+                    <div className="shop-list-btn">
+                        <p>1</p>
+                    </div>
+                </li>
+                
+            </ul>
+            <div className="shop-list-price">
+                <h3 className="shop-list-price-title">
+                TOTAL
+                </h3>
+                <p className="shop-list-price-text">$ 5,396</p>
+            </div>
+            <div className="shop-list-checkout">
+                <p>checkout</p>
             </div>
         </div>
     </header>

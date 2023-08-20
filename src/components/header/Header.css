@@ -21,7 +21,141 @@
     letter-spacing: 0.2rem;
     color: var(--white-color);
 }
+.header__btn{
+    cursor: pointer;
+}
 .header__btn__img{
     background-color: var(--header-bg-color);
     border: none;
+}
+
+/* =======SHOP-LIST-STYLE====== */
+
+.shop-list{
+    z-index: 5;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 377px;
+height: 488px;
+border-radius: 0.8rem;
+background-color: rgb(174, 167, 167);
+backdrop-filter: blur(10px);
+}
+.shop-list-top{
+    padding: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-list-top-title{
+    color: #000;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.286px;
+text-transform: uppercase;
+}
+.shop-list-top p{
+    color: #000;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+text-decoration-line: underline;
+opacity: 0.5;
+}
+.shop-list-element{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.shop-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+}
+.shop-list-item-images{
+    width: 64px;
+height: 64px;
+border-radius: 0.8rem;
+background-color: var(--secondary-color);
+}
+.shop-list-item-info-title{
+    color: #000;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 166.667% */
+}
+.shop-list-item-info-text{
+    color: #000;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 178.571% */
+opacity: 0.5;
+}
+.shop-list-btn{
+    width: 96px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+background-color: var(--secondary-color);
+}
+.shop-list-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+    margin-top: 15%;
+}
+.shop-list-price-title{
+    color: #000;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+opacity: 0.5;
+}
+.shop-list-price-text{
+    color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.shop-list-checkout{
+margin-left: 50%;
+transform: translate(-50%);
+margin-top: 2rem;
+text-align: center;
+    width: 313px;
+height: 48px;
+flex-shrink: 0;
+background-color: var(--main-color);
+}
+.shop-list-checkout p{
+    padding-top: 1.5rem;
+    color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
 }

@@ -23,13 +23,21 @@ import HeadPhones3 from './element/headPhonesElement/HeadPhones3'
 import Speakers1 from './element/headPhonesElement/Speakers1'
 import Speakers2 from './element/headPhonesElement/Speakers2'
 import EarPhone1 from './element/headPhonesElement/EarPhone1'
+import HomeLayout from './layouts/HomeLayout'
 
 function App() {
   
   const routes = createBrowserRouter(
     createRoutesFromElements(
       <Route  element={<RootLayout/>}>
-        <Route index element={ <Home/>} />
+        {/* <Route index element={ <Home/>} /> */}
+        <Route path='/' element={<HomeLayout/>}>
+            <Route index element={ <Home/>}/>
+            <Route path='headphones1' element={ <HeadPhones1/>}/>
+            <Route path='speakers1' element={ <Speakers1/>}/>
+            <Route path='speakers2' element={ <Speakers2/>}/>
+            <Route path='earphones1' element={ <EarPhone1/>}/>
+        </Route>
         <Route path='headphones' element={<HeadPhonesLayout/> } >
               <Route index element={ <HeadPhones/>}/>
               <Route path='headphones1' element={ <HeadPhones1/> }/>
