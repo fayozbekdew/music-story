@@ -19,14 +19,14 @@ const Speakers = () => {
      title:`ZX9
      SPEAKER`,
     img:SpeakersImg1,
-    link:"/speakers"},
+    link:"speakers1"},
     {id:2,
     flex: 'row-reverse',
     titleTop:"", text: "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.", 
     title:`ZX7
     SPEAKER`,
     img:SpeakersImg2,
-    link:"/speakers"},
+    link:"speakers2"},
   ]
 
   return (

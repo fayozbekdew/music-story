@@ -15,7 +15,7 @@ const EarPhones = () => {
      title:`YX1 WIRELESS
      EARPHONES`,
     img:EarPhonesImg1,
-    link:"/speakers"},
+    link:"earphones1"},
     
   ]
   return (

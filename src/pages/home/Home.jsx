@@ -28,7 +28,7 @@ HeadphoneS
         <p className="hero__left__text">
         Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
         </p>
-        <Button bacColor={'#d87d4a'}/>
+        <Button  bacColor={'#d87d4a'}/>
       </div>
       <div className="hero__right">
         

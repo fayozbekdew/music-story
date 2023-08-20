@@ -19,14 +19,14 @@ const HeadPhones = () => {
      title:`XX99 Mark II
     Headphones`,
     img:HeadImg1,
-    link:"/headphones"},
+    link:"headphones1"},
     {id:2,
     flex: 'row-reverse',
     titleTop:"", text: "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.", 
     title:`XX99 Mark I
     Headphones`,
     img:HeadImg2,
-    link:"/headphones"},
+    link:"headphones2"},
     {id:3, 
       flex: 'row',
       titleTop:"", 
@@ -34,7 +34,7 @@ const HeadPhones = () => {
       title:`XX59
       Headphones`,
       img:HeadImg3,
-    link:"/headphones"},
+    link:"headphones3"},
   ]
 
   return (

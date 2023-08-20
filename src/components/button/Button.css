@@ -12,7 +12,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
-color: aliceblue; 
+color: aliceblue !important;  
     /* background-color: #d87d4a; */
 }
 

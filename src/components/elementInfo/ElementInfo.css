@@ -1,0 +1,109 @@
+.element-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.element-info__left{
+    width: 100%;
+    max-width: 540px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+.element-info__right__title{
+    width: 100%;
+    max-width: 44.5rem;
+    color: #000;
+font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 110% */
+letter-spacing: 1.429px;
+text-transform: uppercase;
+margin-bottom: 3.2rem;
+}
+.element-info__right__text{
+    width: 100%;
+    max-width: 44.5rem;
+    color: #000;
+    opacity: 0.5;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin-bottom: 3.2rem;
+}
+.element-info__right__prince{
+    width: 100%;
+    max-width: 5.4rem;
+    color: #000;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.286px;
+text-transform: uppercase;
+margin-bottom: 4.7rem;
+}
+.element-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 1.6rem;
+}
+.element-info__right__number-btn{
+    width: 120px;
+height: 48px;
+background-color: var(--secondary-color);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.number-btn-counter{
+color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+opacity: 0.25;
+}
+.element-info__right__number-btn p{
+    color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 0 2rem;
+}
+.element-info__right__submit-btn{
+    width: 160px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: var(--main-color);
+}
+.element-info__right__submit-btn h1{
+    color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
